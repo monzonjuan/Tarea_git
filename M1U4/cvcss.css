@@ -1,0 +1,19 @@
+* {
+    padding: 3px;
+    margin: 3px;
+    font-family:'Gantari', sans-serif;
+    background-color: darkgrey;
+}
+h1 {
+    font-size: 4em;
+}
+h2 {
+    font-size:2em;
+    color: brown;
+}
+ul {
+    margin-left: 20px;   
+}
+.tamañop {
+    font-size: 1.2em;
+}
