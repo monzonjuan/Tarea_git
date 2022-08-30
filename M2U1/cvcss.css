@@ -1,0 +1,30 @@
+* {
+    padding: 3px;
+    margin: 3px;
+    font-family:'Gantari', sans-serif;
+    background-color: darkgrey;
+}
+h1 {
+    font-size: 4em;
+}
+h2 {
+    font-size:2em;
+    background: #1ca467;
+    background: linear-gradient(0deg,#1ca467 70%, #7fd7bf 100%);
+    background: -webkit-linear-gradient(0deg,#1ca467 70%, #7fd7bf 100%);
+    background: -moz-linear-gradient(0deg,#1ca467 70%, #7fd7bf 100%);
+}
+ul {
+    margin-left: 20px;
+}
+.tamañop {
+    font-size: 1.2em;
+}
+.cajaimg {
+    box-shadow: 10px 5px 15px rgba(48, 94, 6, 0.63);
+    padding: 0px;
+    width: 300px;
+    height: 350px;
+    border: 3px solid green;
+    border-radius: 50%;
+}
