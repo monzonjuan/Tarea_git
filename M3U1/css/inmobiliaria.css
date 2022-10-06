@@ -1,0 +1,221 @@
+/*
+font-family: 'Roboto Condensed', sans-serif;
+*/
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+header {
+    background-color: #D59450;
+    padding: 15px;
+    height: 80px;
+}
+header a {
+    text-decoration: none;
+}
+header h1 {
+    color: #000;
+    font-size: 50px;
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+}
+nav{
+    background-color: #EECE9F;
+    margin-bottom: 20px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    flex-grow: 1;
+}
+nav ul li a {
+    color: #000;
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+}
+nav ul li a:hover {
+    background-color: rgba(177, 100, 13, 0.493);
+}
+footer {
+    text-align: center;
+    background-color: #EECE9F;
+    padding: 20px;
+    clear: both;
+    margin-top: 20px;
+}
+
+nav ul li a.activo {
+    background-color: rgba(177, 100, 13, 0.493);
+}
+
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #D59450;
+    font-weight: 500;
+}
+
+
+
+/* Home */
+.home_titulo {
+    text-align: center;
+    font-size: 30px;
+}
+.home_botones {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+main div ul li {
+    flex-grow: 1;
+}
+main div ul li a {
+    color: #000;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color:  #ccc;
+}
+main div ul li a:hover {
+    background-color: rgba(204, 204, 204, 0.315);
+}
+.home_contenedor {
+    margin: 0;
+    padding: 30px;
+}
+/* Home */
+
+
+
+/*Nosotros*/
+.historia p {
+    font-size: 12px;
+}
+.persona {
+    width: 22%;
+    border: 1px solid #EECE9F;
+    text-align: center;
+    padding: 13px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.personas {
+    display: flex;
+    justify-content: space-around;
+}
+.persona img {
+    border-radius: 50%;
+    max-width: 60%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5)
+}
+.persona h5,
+.persona h6{
+    margin: 0;
+    font-weight: normal;
+}
+.persona p {
+    color: #666;
+    font-size: 10px;
+}
+/*Nosotros*/
+
+
+
+
+/*Ventas - Alquiler*/
+
+.contenedor_ventas {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 16px 0;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+/*.contenedor_ventas_data h3{
+    color: #D59450;
+    font-weight: 500;
+    font-style: italic;
+    border-bottom: 1px solid #D59450;
+    padding-bottom: 10px;
+}
+*/
+.contenedor_ventas img {
+    width: 200px;
+    height: 150px;
+    max-width: 225px;
+}
+.contenedor_ventas_colunma{
+    font-style: italic;
+    display: flex;
+    max-height: 90px;
+    border-bottom: 1px solid #D59450;
+}
+.contenedor_ventas_colunma h3 {
+    width: 50%;
+}
+
+/*Ventas - Alquiler*/
+
+
+
+
+
+/* Contacto */
+
+.contenedor__form {
+    width: 50%;
+    padding: 7px;
+}
+.contenedor__contacto {
+    width: 50%;
+}
+.form__imput {
+    width: 90%;
+    padding: 7px;
+    margin: 9px 0;
+    font-size: 14px;
+    resize: none;
+}
+.contenedor__imput textarea {
+    height: 100px;
+}
+.contenedor__contacto {
+    width: 100%;
+    display: flex;
+    background-color: #ccc;
+    gap: 40px;
+}
+.contenedor__datos {
+    padding: 7px;
+}
+.contenedor__imput__a {
+    width: 100%;
+    padding: 0 10px;
+}
+ .iconos {
+    color: #D59450;
+    display: block !important;
+    padding: 9px;
+
+/* Contacto */
+
